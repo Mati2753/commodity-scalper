@@ -1,0 +1,14 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+data/ticks/**/*.parquet
+data/reports/*.json
+!data/ticks/.gitkeep
+!data/reports/.gitkeep
